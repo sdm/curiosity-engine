@@ -1,5 +1,7 @@
-// curiosity-engine -- Copyright 2008, Shawn MacIntyre; All rights Reserved
 
+//
+// curiosity-engine -- Copyright 2008, Shawn MacIntyre; All rights Reserved
+//
 
 // Core Libraries used
 core.db.modelBase();
@@ -12,6 +14,6 @@ core.core.routes();
 // Routes
 
 routes = new Routes();
-routes.setDefault('/controllers/default.jxp');
-
+routes.setDefault('/controller/default.jxp');
+routes.add('foo', '/index.jxp');
 

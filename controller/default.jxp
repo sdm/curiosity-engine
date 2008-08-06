@@ -1,0 +1,4 @@
+<% 
+response.setHeader('X-Awesome', 'Evil League of Evil');
+local.view.base(); 
+%>
